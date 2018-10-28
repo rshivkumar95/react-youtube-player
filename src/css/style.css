@@ -1,0 +1,62 @@
+:local(.searchBar) {
+    margin: 20px;
+    text-align: center;
+}
+
+:local(.searchBar input) {
+    width: 75%;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+:local(.videoItem img) {
+    max-width: 64px;
+}
+
+:local(.videoDetail .details) {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+:local(.listGroup) {
+    padding: 20px;
+}
+
+:local(.listGroupItem) {
+    cursor: pointer;
+    max-height: 90px;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+/* :local(.listGroupItem:hover) {
+    background-color: #eee;
+} */
+
+:local(.app) {
+    background: black;
+    color: white;
+    height: 100vh;
+}
+:local(.app *) {
+    color: white;
+}
+
+:local(.title) {
+    font-size: 16px;
+}
+
+:local(.desc) {
+    font-size: 14px;
+}
+:local(.brand) {
+    font-size: 20px;
+    text-align: center;
+    color: red !important;
+    width: 100%;
+    padding: 20px;
+}
+:local(.brand > *) {
+    color: red !important;
+}
